@@ -1,0 +1,135 @@
+body{
+    background: 
+    url("image/flow.png") -80px top repeat-y,
+    url("image/leaf.png") 850px bottom repeat-y;
+    background-attachment: fixed;
+    background-color: aqua;
+}
+
+div {
+    margin: 0px 100px;
+    background-color: blanchedalmond;
+    border: 1px black solid;
+    padding: 10px 100px;
+}
+
+h2 {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-shadow: 5px 5px 2px skyblue;
+    font-weight: 800;
+    clear: both;
+}
+
+p {
+    clear: both;
+}
+
+ul {
+    font-weight: 200;
+    color: darkgreen;
+    clear: both;
+
+}
+
+ol {
+    font-weight: 200;
+    color: purple;
+    clear: both;
+}
+
+div.motto{
+    border-left: 10px navy solid;
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    color: green;
+    text-shadow: 0.5px 0.5px 2px greenyellow;
+    background-color: skyblue;
+    margin: 10px 100px;
+}
+
+div#Body h2{
+    color: navy;
+}
+
+div#Body b {
+    font-size: large;
+    font-weight: 800;
+    font-style: italic;
+    color: red;
+    letter-spacing: 2px;
+}
+
+div#Body p {
+    font-size: medium;
+}
+
+div#Body a:link {
+    font-size: large;
+    font-weight: 800;
+    color: darkblue;
+    text-shadow: 0.5px 0.5px 2px cyan;
+    letter-spacing: 2px;
+    clear: both;
+}
+
+div#Body a:visited {
+    font-size: large;
+    font-weight: 800;
+    color: navy;
+    text-shadow: 0.5px 0.5px 2px royalblue;
+    letter-spacing: 2px;
+    clear: both;
+}
+
+div#Body a:hover {
+    font-size: large;
+    font-weight: 800;
+    color: blue;
+    text-shadow: 0.5px 0.5px 2px lightblue;
+    letter-spacing: 2px;
+    clear: both;
+}
+
+div#Body a:active {
+    font-size: large;
+    font-weight: 800;
+    color: cyan;
+    text-shadow: 0.5px 0.5px 2px whitesmoke;
+    letter-spacing: 2px;
+    clear: both;
+}
+
+div#Reference a:link {
+    font-size: large;
+    font-weight: 800;
+    color: green;
+    text-shadow: 0.5px 0.5px 2px greenyellow;
+    clear: both;
+}
+
+div#Reference a:visited {
+    font-size: large;
+    font-weight: 800;
+    color: forestgreen;
+    text-shadow: 0.5px 0.5px 2px chartreuse;
+    clear: both;
+}
+
+div#Reference a:hover {
+    font-size: large;
+    font-weight: 800;
+    color: limegreen;
+    text-shadow: 0.5px 0.5px 2px lawngreen;
+    clear: both;
+}
+
+div#Reference a:active {
+    font-size: large;
+    font-weight: 800;
+    color: lime;
+    text-shadow: 0.5px 0.5px 2px lightgreen;
+    clear: both;
+}
